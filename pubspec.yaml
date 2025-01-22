@@ -1,0 +1,33 @@
+name: test
+description: "A new Flutter project."
+
+# Empêche la publication accidentelle sur pub.dev
+publish_to: 'none' # Retirez cette ligne si vous souhaitez publier sur pub.dev
+
+# Version et numéro de build
+version: 1.0.0+1
+
+# Environnement SDK
+environment:
+  sdk: ^3.6.1
+
+# Dépendances
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  image_picker: ^0.8.7+3 # Permet de sélectionner des images depuis la caméra ou la galerie
+
+# Dépendances de développement
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+# Section Flutter
+flutter:
+  uses-material-design: true
+
+  # Ajout des assets (exemple : logo ICRISAT)
+  assets:
+    - assets/images/icrisat.png
