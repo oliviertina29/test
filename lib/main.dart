@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
                       ),
                       decoration: BoxDecoration(
                         color:
-                            const Color.fromARGB(255, 1, 75, 1), // Green color
+                            const Color.fromARGB(255, 4, 92, 4), // Green color
                         borderRadius: BorderRadius.circular(8),
                         boxShadow: [
                           BoxShadow(
@@ -121,8 +121,8 @@ class HomePage extends StatelessWidget {
                       icon: const Icon(Icons.camera_alt_rounded),
                       label: const Text('TAKE PHOTO'),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor:
-                            const Color(0xFF008000), // Green button
+                        backgroundColor: const Color.fromARGB(
+                            255, 2, 105, 2), // Green button
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(
                           horizontal: 24,
@@ -141,8 +141,7 @@ class HomePage extends StatelessWidget {
                       icon: const Icon(Icons.photo_library_rounded),
                       label: const Text('GALLERY'),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor:
-                            const Color(0xFFFF8C00), // Orange button
+                        backgroundColor: const Color.fromARGB(255, 206, 112, 35), // Orange button
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(
                           horizontal: 24,
@@ -163,11 +162,12 @@ class HomePage extends StatelessWidget {
                     // Add functionality
                   },
                   child: const Text(
-                    'Recommendations',
+                    'Analysis History',
                     style: TextStyle(fontSize: 18),
                   ),
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFF008000), // Green button
+                    backgroundColor:
+                        const Color.fromARGB(255, 1, 90, 1), // Green button
                     foregroundColor: Colors.white,
                     padding: const EdgeInsets.symmetric(
                       horizontal: 48,
