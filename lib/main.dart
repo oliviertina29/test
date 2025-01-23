@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
                 Column(
                   children: [
                     Image.asset(
-                      'icrisat.png', // Nom du fichier dans le même dossier que main.dart
+                      '/home/oliver/Downloads/image_selection/test/assets/images/icrisat.png', // Nom du fichier dans le même dossier que main.dart
                       height: 80,
                     ),
                     const SizedBox(height: 8),
@@ -49,7 +49,8 @@ class HomePage extends StatelessWidget {
                         vertical: 6,
                       ),
                       decoration: BoxDecoration(
-                        color: const Color(0xFF008000), // Green color
+                        color:
+                            const Color.fromARGB(255, 1, 75, 1), // Green color
                         borderRadius: BorderRadius.circular(8),
                         boxShadow: [
                           BoxShadow(
@@ -77,7 +78,7 @@ class HomePage extends StatelessWidget {
                     const Icon(
                       Icons.eco_rounded,
                       size: 60,
-                      color: Color(0xFF008000), // Green icon
+                      color: Color.fromARGB(255, 1, 65, 1), // Green icon
                     ),
                     const SizedBox(height: 8),
                     const Text(
@@ -85,7 +86,7 @@ class HomePage extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 28,
                         fontWeight: FontWeight.bold,
-                        color: Color(0xFF008000),
+                        color: Color.fromARGB(255, 1, 80, 1),
                       ),
                     ),
                     const SizedBox(height: 16),
@@ -120,7 +121,8 @@ class HomePage extends StatelessWidget {
                       icon: const Icon(Icons.camera_alt_rounded),
                       label: const Text('TAKE PHOTO'),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFF008000), // Green button
+                        backgroundColor:
+                            const Color(0xFF008000), // Green button
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(
                           horizontal: 24,
@@ -139,7 +141,8 @@ class HomePage extends StatelessWidget {
                       icon: const Icon(Icons.photo_library_rounded),
                       label: const Text('GALLERY'),
                       style: ElevatedButton.styleFrom(
-                        backgroundColor: const Color(0xFFFF8C00), // Orange button
+                        backgroundColor:
+                            const Color(0xFFFF8C00), // Orange button
                         foregroundColor: Colors.white,
                         padding: const EdgeInsets.symmetric(
                           horizontal: 24,
